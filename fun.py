@@ -31,7 +31,16 @@ print "#" * 50
 def fun4(name, age, *c):
 	print name
 	print age
-	print c
+	print c#print tuple
 	return
 
 fun4("wangwu", 40, "hello", 45, 3.14)
+
+print "#" * 50
+
+def fun5(name ,**c):
+	print name
+	print c
+	return
+
+fun5("bob" , age=50, sex = "male", addr ="Beijing")
