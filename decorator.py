@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #_*_coding=utf-8_*_
+# hi()-->printTime(hi)-->wrappendfunc()-->hi()
 
 
 from time import ctime
