@@ -108,7 +108,7 @@ class Game(object):
         print("wrong 10 times then the lock closes forever and you can't")
         print("get the bomb.  The code is 3 digits.")
         code = "%d%d%d" % (randint(1, 9), randint(1, 9), randint(1, 9))
-        print "输入3位数："
+        print "输入3位数密码（最多只能输入10次）："
         guess = input("[keypad]> ")
         guesses = 0
 
